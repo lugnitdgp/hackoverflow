@@ -2,12 +2,19 @@ import React from "react";
 
 let timer;
 
+String.prototype.lpad = function(padString, length) {
+  var str = this;
+  while (str.length < length)
+      str = padString + str;
+  return str;
+}
+
 export default function Timer() {
   const [day, setDay] = React.useState(0);
   const [hour, setHour] = React.useState(0);
   const [minute, setMinute] = React.useState(0);
   const [second, setSecond] = React.useState(0);
-  const endDate = new Date("Apr 02, 2021").getTime();
+  const endDate = new Date("Apr 02, 2021 10:00:00").getTime();
 
   React.useEffect(() => {
     timer = setInterval(function () {
@@ -29,19 +36,19 @@ export default function Timer() {
     <div>
       <div className="countdown_time">
         <div className="single_countdown">
-          <h3>{day}</h3>
-          <span>days</span>
+          <h3>{day.toString().lpad("0", 2)}</h3>
+          <span className="text-lg">days</span>
         </div>
         <div className="single_countdown">
-          <h3>{hour}</h3>
+          <h3>{hour.toString().lpad("0", 2)}</h3>
           <span>Hours</span>
         </div>
         <div className="single_countdown">
-          <h3>{minute}</h3>
+          <h3>{minute.toString().lpad("0", 2)}</h3>
           <span>Minutes</span>
         </div>
         <div className="single_countdown">
-          <h3>{second}</h3>
+          <h3>{second.toString().lpad("0", 2)}</h3>
           <span>Seconds</span>
         </div>
       </div>

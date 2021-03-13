@@ -67,7 +67,8 @@ export default function IndexPage() {
                     <div className="title_text">
                       <h3>
                         Hack Overflow <br />
-                        By, Team<br />
+                        By, Team
+                        <br />
                         Aavishkar
                       </h3>
                       <a href="#" className="boxed-btn-white">
@@ -85,7 +86,7 @@ export default function IndexPage() {
                 <div className="col-xl-4 col-md-6 col-lg-4">
                   <div className="single_date">
                     <i className="ti-location-pin" />
-                    <span>NAB, NIT Durgapur</span>
+                    <span>Online</span>
                   </div>
                 </div>
                 <div className="col-xl-3 col-md-6 col-lg-3">
@@ -245,22 +246,28 @@ export default function IndexPage() {
           </div>
         </div>
         <div className="event_area">
-          <h1 className="vr_text d-none d-lg-block">Event Schedule</h1>
+          <h1 className="vr_text d-none d-lg-block">Themes List</h1>
           <div className="container">
             <div className="double_line">
               <div className="row">
                 <div className="col-xl-3 col-lg-3">
                   <div className="date">
-                    <h3>08 Sep 2019</h3>
+                    <h3>Hackathon Themes</h3>
                   </div>
                 </div>
                 <div className="col-xl-9 col-lg-9">
                   <div className="single_speaker">
-                    <img src="img/speakers/seaker1.png" alt />
+                    <img
+                      src="/security.png"
+                      style={{
+                        height: "90px",
+                        width: "90px",
+                        borderRadius: "50%",
+                      }}
+                    />
                     <div className="speaker-name">
                       <div className="heading d-flex justify-content-between align-items-center">
-                        <span>Jonson Miller</span>
-                        <div className="time">10-11 am</div>
+                        <span>Child Security</span>
                       </div>
                       <p>
                         Our set he for firmament morning sixth subdue darkness
@@ -271,11 +278,17 @@ export default function IndexPage() {
                     </div>
                   </div>
                   <div className="single_speaker">
-                    <img src="img/speakers/seaker2.png" alt />
+                    <img
+                      src="/classroom.png"
+                      style={{
+                        height: "90px",
+                        width: "90px",
+                        borderRadius: "50%",
+                      }}
+                    />
                     <div className="speaker-name">
                       <div className="heading d-flex justify-content-between align-items-center">
-                        <span>Albert Jackey</span>
-                        <div className="time">12-1.00 pm</div>
+                        <span>Virtual Classroom</span>
                       </div>
                       <p>
                         Our set he for firmament morning sixth subdue darkness
@@ -286,73 +299,25 @@ export default function IndexPage() {
                     </div>
                   </div>
                   <div className="single_speaker">
-                    <img src="img/speakers/seaker3.png" alt />
+                    <img
+                      src="/agriculture.png"
+                      style={{
+                        height: "90px",
+                        width: "90px",
+                        borderRadius: "50%",
+                      }}
+                    />
                     <div className="speaker-name">
                       <div className="heading d-flex justify-content-between align-items-center">
-                        <span>Alvi Nourin</span>
-                        <div className="time">2.30-4.00 pm</div>
+                        <span>Agriculture</span>
                       </div>
                       <p>
                         Our set he for firmament morning sixth subdue darkness
                         creeping gathered divide our let god moving. Moving in
                         fourth air night bring upon you’re it beast let you
-                        dominion{" "}
+                        dominion
                       </p>
                     </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-xl-3 col-lg-3">
-                <div className="date">
-                  <h3>09 Sep 2019</h3>
-                </div>
-              </div>
-              <div className="col-xl-9 col-lg-9">
-                <div className="single_speaker">
-                  <img src="img/speakers/seaker4.png" alt />
-                  <div className="speaker-name">
-                    <div className="heading d-flex justify-content-between align-items-center">
-                      <span>Marked Macau</span>
-                      <div className="time">10-11 am</div>
-                    </div>
-                    <p>
-                      Our set he for firmament morning sixth subdue darkness
-                      creeping gathered divide our let god moving. Moving in
-                      fourth air night bring upon you’re it beast let you
-                      dominion{" "}
-                    </p>
-                  </div>
-                </div>
-                <div className="single_speaker">
-                  <img src="img/speakers/seaker5.png" alt />
-                  <div className="speaker-name">
-                    <div className="heading d-flex justify-content-between align-items-center">
-                      <span>Jonson Miller</span>
-                      <div className="time">12-1.00 pm</div>
-                    </div>
-                    <p>
-                      Our set he for firmament morning sixth subdue darkness
-                      creeping gathered divide our let god moving. Moving in
-                      fourth air night bring upon you’re it beast let you
-                      dominion{" "}
-                    </p>
-                  </div>
-                </div>
-                <div className="single_speaker">
-                  <img src="img/speakers/seaker6.png" alt />
-                  <div className="speaker-name">
-                    <div className="heading d-flex justify-content-between align-items-center">
-                      <span>Jonson Miller</span>
-                      <div className="time">2.30-4.00 pm</div>
-                    </div>
-                    <p>
-                      Our set he for firmament morning sixth subdue darkness
-                      creeping gathered divide our let god moving. Moving in
-                      fourth air night bring upon you’re it beast let you
-                      dominion{" "}
-                    </p>
                   </div>
                 </div>
               </div>
@@ -376,32 +341,15 @@ export default function IndexPage() {
             </div>
           </div>
         </div>
-        <div className="brand_area">
-          <div className="container">
-            <div className="row">
-              <div className="col-xl-12">
-                <div className="brand_active owl-carousel">
-                  <div className="single_brand text-center">
-                    <img src="img/barnd/1.png" alt />
-                  </div>
-                  <div className="single_brand text-center">
-                    <img src="img/barnd/2.png" alt />
-                  </div>
-                  <div className="single_brand text-center">
-                    <img src="img/barnd/3.png" alt />
-                  </div>
-                  <div className="single_brand text-center">
-                    <img src="img/barnd/4.png" alt />
-                  </div>
-                  <div className="single_brand text-center">
-                    <img src="img/barnd/5.png" alt />
-                  </div>
-                  <div className="single_brand text-center">
-                    <img src="img/barnd/6.png" alt />
-                  </div>
-                </div>
-              </div>
-            </div>
+        <div className="w-full pt-4 md:pt-16 md:pb-8 flex md:flex-row flex-col items-center md:justify-around">
+          <div className="p-3">
+            <img src="/devfolio.png" />
+          </div>
+          <div className="p-3">
+            <img src="/tezos.png" />
+          </div>
+          <div className="p-3">
+            <img src="/portis.png" />
           </div>
         </div>
         <div className="faq_area">
