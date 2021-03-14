@@ -21,30 +21,30 @@
   .social_icon
   a:hover {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff9600+0,fe531e+26,c022a5+57,1bb8f9+100 */
-  background: #ff9600;
+  background: #1e99fe;
   /* Old browsers */
   background: -moz-linear-gradient(
     top,
-    #ff9600 0%,
-    #fe531e 26%,
-    #c022a5 57%,
-    #1bb8f9 100%
+    #1100ff 0%,
+    #1e99fe 26%,
+    #a1acaf 57%,
+    #f1f4f5 100%
   );
   /* FF3.6-15 */
   background: -webkit-linear-gradient(
     top,
-    #ff9600 0%,
-    #fe531e 26%,
-    #c022a5 57%,
-    #1bb8f9 100%
+    #1100ff 0%,
+    #1e99fe 26%,
+    #a1acaf 57%,
+    #f1f4f5 100%
   );
   /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(
     to bottom,
-    #ff9600 0%,
-    #fe531e 26%,
-    #c022a5 57%,
-    #1bb8f9 100%
+    #1100ff 0%,
+    #1e99fe 26%,
+    #a1acaf 57%,
+    #f1f4f5 100%
   );
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9600', endColorstr='#1bb8f9',GradientType=0 );
@@ -59,29 +59,29 @@
   /* Old browsers */
   background: -moz-linear-gradient(
     left,
-    #ff9600 0%,
-    #fe531e 26%,
-    #c022a5 57%,
-    #1bb8f9 100%
+    #1100ff 0%,
+    #1e99fe 26%,
+    #a1acaf 57%,
+    #f1f4f5 100%
   );
   /* FF3.6-15 */
   background: -webkit-linear-gradient(
     left,
-    #ff9600 0%,
-    #fe531e 26%,
-    #c022a5 57%,
-    #1bb8f9 100%
+    #1100ff 0%,
+    #1e99fe 26%,
+    #a1acaf 57%,
+    #f1f4f5 100%
   );
   /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(
     to right,
-    #ff9600 0%,
-    #fe531e 26%,
-    #c022a5 57%,
-    #1bb8f9 100%
+    #1100ff 0%,
+    #1e99fe 26%,
+    #a1acaf 57%,
+    #f1f4f5 100%
   );
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9600', endColorstr='#1bb8f9',GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1100ff', endColorstr='#f1f4f5',GradientType=1 );
   /* IE6-9 */
 }
 
@@ -495,24 +495,24 @@ h3 {
 /* line 27, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_btn.scss */
 .boxed-btn-red {
   background: #fff;
-  color: #ff0000;
+  color: #1566fd;
   display: inline-block;
   padding: 16px 44px;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 500;
   border: 0;
-  border: 2px solid #ff0000;
+  border: 2px solid #1566fd;
   text-align: center;
-  color: #ff0000 !important;
+  color: #1566fd !important;
   text-transform: capitalize;
 }
 
 /* line 41, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_btn.scss */
 .boxed-btn-red:hover {
-  background: #ff0000;
+  background: #1566fd;
   color: #fff !important;
-  border: 2px solid #ff0000;
+  border: 2px solid #1566fd;
 }
 
 /* line 46, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_btn.scss */
@@ -1803,7 +1803,7 @@ h3 {
   height: 100%;
   left: 0;
   bottom: 0;
-  background: rgba(255, 0, 0, 0.5);
+  background: rgba(0, 0, 255, 0.5);
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
@@ -1892,7 +1892,7 @@ h3 {
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_resister.scss */
 .resister_bg_1 {
-  background-image: url(../img/banner/resister.png);
+  background-image: url(../img/banner/resister.jpg);
 }
 
 /* line 4, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_resister.scss */
@@ -1917,6 +1917,15 @@ h3 {
   line-height: 58px;
   color: #fff;
   margin-bottom: 56px;
+}
+
+.resister_book .resister_text li {
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 58px;
+  color: #fff;
+  margin-bottom: 16px;
+  font-family: "Poppins", sans-serif !important;
 }
 
 @media (max-width: 767px) {
@@ -2181,7 +2190,6 @@ h3 {
   z-index: 9;
   padding-top: 100px;
   padding-bottom: 20px;
-  margin-bottom: 100px;
 }
 
 @media (max-width: 767px) {
@@ -2299,7 +2307,7 @@ h3 {
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
 .footer_bg_1 {
-  background-image: url(../img/banner/footer_bg_1.png);
+  background-image: url(../img/banner/footer_bg_1.jpg);
 }
 
 /* line 4, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */

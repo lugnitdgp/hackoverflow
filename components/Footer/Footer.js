@@ -13,22 +13,22 @@ export default function Footer() {
               <h3 className="footer_title">Follow Us</h3>
               <ul>
                 <li>
-                  <a target="_blank" href="#">
+                  <a target="_blank" href="https://www.facebook.com/arhn.nitd/">
                     Facebook
                   </a>
                 </li>
                 <li>
-                  <a target="_blank" href="#">
+                  <a target="_blank" href="https://twitter.com/arhn_nitd">
                     Twitter
                   </a>
                 </li>
                 <li>
-                  <a target="_blank" href="#">
+                  <a target="_blank" href="https://www.instagram.com/arhn.nitd/?hl=en">
                     Instagram
                   </a>
                 </li>
                 <li>
-                  <a target="_blank" href="#">
+                  <a target="_blank" href="https://www.youtube.com/channel/UCDRVna-w5uai2Vrcp5WgvSg">
                     Youtube
                   </a>
                 </li>
@@ -40,18 +40,8 @@ export default function Footer() {
               <h3 className="footer_title">Links</h3>
               <ul>
                 <li>
-                  <a target="_blank" href="schedule-2.html">
+                  <a target="_blank" href="Schedule.html">
                     Schedule
-                  </a>
-                </li>
-                <li>
-                  <a target="_blank" href="speakers-2.html">
-                    Speakers
-                  </a>
-                </li>
-                <li>
-                  <a target="_blank" href="contact.html">
-                    Contact
                   </a>
                 </li>
               </ul>
@@ -61,16 +51,8 @@ export default function Footer() {
             <div className="footer_widget">
               <h3 className="footer_title">Venue</h3>
               <p>
-                200, D-block, Green lane USA <br />
-                <a
-                  href="https://preview.colorlib.com/cdn-cgi/l/email-protection"
-                  className="__cf_email__"
-                  data-cfemail="aecbcadbc3cfdcc5eecdc1c0dacfcdda80cdc1c3"
-                >
-                  [email&nbsp;protected]
-                </a>{" "}
-                <br />
-                +10 367 467 8934
+                Online (Discord, DevFolio) <br />{" "}
+                National Institute of Technology, Durgapur
               </p>
             </div>
           </div>
@@ -83,10 +65,10 @@ export default function Footer() {
         <div className="row">
           <div className="col-xl-12">
             <p className="copy_right text-center">
-              Copyright © All rights reserved | This template is made with{" "}
+              Aarohan, 2021 | Made with{" "}
               <i className="fa fa-heart-o" aria-hidden="true" /> by{" "}
               <a href="https://colorlib.com/" target="_blank">
-                GLUG
+                Team Aavishkar 
               </a>
             </p>
           </div>

@@ -9,10 +9,10 @@ export default function IndexPage() {
       <Head>
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-        <title>Hackoverflow</title>
+        <title>Hackoverflow 4.0</title>
         <meta name="description" content />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.html" />
+        <link rel="shortcut icon" type="image/x-icon" href="img/aarohan-logo.png" />
         <link rel="stylesheet" href="/css/bootstrap.min.css" />
         <link rel="stylesheet" href="/css/owl.carousel.min.css" />
         <link rel="stylesheet" href="/css/magnific-popup.css" />
@@ -49,11 +49,7 @@ export default function IndexPage() {
         <script src="/js/jquery.validate.min.js"></script>
         <script src="/js/mail-script.js"></script>
         <script src="/js/main.js"></script>
-
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"
-        ></script>
+        <script type="text/javascript" id="hs-script-loader" src="https://js.hs-scripts.com/19507545.js" async defer></script>
       </Head>
       <div>
         <Navbar />
@@ -66,12 +62,11 @@ export default function IndexPage() {
                   <div className="col-xl-9">
                     <div className="title_text">
                       <h3>
-                        Hack Overflow <br />
-                        By, Team
+                        HackOverflow 4.0<br />
                         <br />
-                        Aavishkar
+                        Aarohan, 2021
                       </h3>
-                      <a href="#" className="boxed-btn-white">
+                      <a href="https://calendar.google.com/calendar/r/eventedit?text=Hackoverflow+4.0&dates=20210402/20210403" className="boxed-btn-white">
                         Add to your Calendar
                       </a>
                     </div>
@@ -122,17 +117,16 @@ export default function IndexPage() {
                     <span className="sub_heading">Welcome To</span>
                     <h3>
                       The Biggest Technical <br />
-                      Hackathon of the <br />
+                      Fest of the <br />
                       Year 2021
                     </h3>
                   </div>
                   <p>
-                    Our set he for firmament morning sixth subdue darkness
-                    creeping gathered divide our let god. moving. Moving in
-                    fourth air night bring upon you’re it beast.
+                    <br /><br />
+                    Hackoverflow 4.0 is conducted by team Aavishkar during Aarohan, the second largest techno-management of Eastern India!
                   </p>
-                  <a href="#" className="boxed-btn-red">
-                    Learn More
+                  <a href="https://www.facebook.com/arhn.nitd/" className="boxed-btn-red">
+                    Learn More about Aarohan
                   </a>
                 </div>
               </div>
@@ -140,12 +134,12 @@ export default function IndexPage() {
           </div>
         </div>
         <div className="speakers_area">
-          <h1 className="horizontal_text d-none d-lg-block">Speakers</h1>
+          <h1 className="horizontal_text d-none d-lg-block">Judges</h1>
           <div className="container">
             <div className="row">
               <div className="col-xl-12">
                 <div className="serction_title_large mb-95">
-                  <h3>Speakers</h3>
+                  <h3>Judges</h3>
                 </div>
               </div>
             </div>
@@ -153,7 +147,7 @@ export default function IndexPage() {
               <div className="col-xl-5 col-md-6">
                 <div className="single_speaker">
                   <div className="speaker_thumb">
-                    <img src="img/speakers/1.png" alt />
+                    <img src="/default.webp" alt />
                     <div className="hover_overlay">
                       <div className="social_icon">
                         <a href="#">
@@ -169,13 +163,13 @@ export default function IndexPage() {
                     </div>
                   </div>
                   <div className="speaker_name text-center">
-                    <h3>Jonson Miller</h3>
-                    <p>Creative Director</p>
+                    <h3>Judge 1</h3>
+                    <p style={{ color: "blue", }}>Position</p>
                   </div>
                 </div>
                 <div className="single_speaker">
                   <div className="speaker_thumb">
-                    <img src="img/speakers/3.png" alt />
+                    <img src="/default.webp" alt />
                     <div className="hover_overlay">
                       <div className="social_icon">
                         <a href="#">
@@ -191,15 +185,15 @@ export default function IndexPage() {
                     </div>
                   </div>
                   <div className="speaker_name text-center">
-                    <h3>Albert Jackey</h3>
-                    <p>Product Designer</p>
+                    <h3>Judge 2</h3>
+                    <p style={{ color: "blue", }}>Position</p>
                   </div>
                 </div>
               </div>
               <div className="col-xl-5 offset-xl-2 col-md-6">
                 <div className="single_speaker">
                   <div className="speaker_thumb">
-                    <img src="img/speakers/2.png" alt />
+                    <img src="/default.webp" alt />
                     <div className="hover_overlay">
                       <div className="social_icon">
                         <a href="#">
@@ -215,13 +209,13 @@ export default function IndexPage() {
                     </div>
                   </div>
                   <div className="speaker_name text-center">
-                    <h3>Marked Macau</h3>
-                    <p>UI/UX Designer</p>
+                    <h3>Judge 3</h3>
+                    <p style={{ color: "blue", }}>Position</p>
                   </div>
                 </div>
                 <div className="single_speaker">
                   <div className="speaker_thumb">
-                    <img src="img/speakers/1.png" alt />
+                    <img src="/default.webp" alt />
                     <div className="hover_overlay">
                       <div className="social_icon">
                         <a href="#">
@@ -237,8 +231,8 @@ export default function IndexPage() {
                     </div>
                   </div>
                   <div className="speaker_name text-center">
-                    <h3>Kelvin Cooper</h3>
-                    <p>Art Director</p>
+                    <h3>Judge 4</h3>
+                    <p style={{ color: "blue", }}>Position</p>
                   </div>
                 </div>
               </div>
@@ -251,14 +245,14 @@ export default function IndexPage() {
             <div className="double_line">
               <div className="row">
                 <div className="col-xl-3 col-lg-3">
-                  <div className="date">
-                    <h3>Hackathon Themes</h3>
+                  <div className="date" style={{ color: "blue" }}>
+                    <h3 style={{ color: "blue" }}>Hackathon Themes</h3>
                   </div>
                 </div>
                 <div className="col-xl-9 col-lg-9">
                   <div className="single_speaker">
                     <img
-                      src="/security.png"
+                      src="/sustainable.png"
                       style={{
                         height: "90px",
                         width: "90px",
@@ -267,13 +261,28 @@ export default function IndexPage() {
                     />
                     <div className="speaker-name">
                       <div className="heading d-flex justify-content-between align-items-center">
-                        <span>Child Security</span>
+                        <span>Sustainability</span>
                       </div>
                       <p>
-                        Our set he for firmament morning sixth subdue darkness
-                        creeping gathered divide our let god moving. Moving in
-                        fourth air night bring upon you’re it beast let you
-                        dominion{" "}
+                        Development of society often leads to imbalance in the environment. New technological tools can be used to have sustainable growth. {" "}
+                      </p>
+                    </div>
+                  </div>
+                  <div className="single_speaker">
+                    <img
+                      src="/blockchain.png"
+                      style={{
+                        height: "90px",
+                        width: "90px",
+                        borderRadius: "50%",
+                      }}
+                    />
+                    <div className="speaker-name">
+                      <div className="heading d-flex justify-content-between align-items-center">
+                        <span>Blockchain Technology**</span>
+                      </div>
+                      <p>
+                        Keeping all important data in one place is risky. So it’s better to keep important data at decentralised locations. Any web/mobile app can make use of this concept. {" "}
                       </p>
                     </div>
                   </div>
@@ -288,13 +297,10 @@ export default function IndexPage() {
                     />
                     <div className="speaker-name">
                       <div className="heading d-flex justify-content-between align-items-center">
-                        <span>Virtual Classroom</span>
+                        <span>Education</span>
                       </div>
                       <p>
-                        Our set he for firmament morning sixth subdue darkness
-                        creeping gathered divide our let god moving. Moving in
-                        fourth air night bring upon you’re it beast let you
-                        dominion{" "}
+                        Our education system has not updated since long but technological advancements have been rapid. Upcoming technology can help students better grasp concepts.{" "}
                       </p>
                     </div>
                   </div>
@@ -312,11 +318,44 @@ export default function IndexPage() {
                         <span>Agriculture</span>
                       </div>
                       <p>
-                        Our set he for firmament morning sixth subdue darkness
-                        creeping gathered divide our let god moving. Moving in
-                        fourth air night bring upon you’re it beast let you
-                        dominion
+                        Producing and distributing food materials is a challenge with many environmental as well as government policies affecting it. Make use of technology to ease this problem.
                       </p>
+                    </div>
+                  </div>
+                  <div className="single_speaker">
+                    <img
+                      src="/law-book.png"
+                      style={{
+                        height: "90px",
+                        width: "90px",
+                        borderRadius: "50%",
+                      }}
+                    />
+                    <div className="speaker-name">
+                      <div className="heading d-flex justify-content-between align-items-center">
+                        <span>Law and Order</span>
+                      </div>
+                      <p>
+                        Several laws are made by the government. Use development tools to assist officers of law and citizens.
+                    </p>
+                    </div>
+                  </div>
+                  <div className="single_speaker">
+                    <img
+                      src="/open-sign.png"
+                      style={{
+                        height: "90px",
+                        width: "90px",
+                        borderRadius: "50%",
+                      }}
+                    />
+                    <div className="speaker-name">
+                      <div className="heading d-flex justify-content-between align-items-center">
+                        <span>Open Innovation</span>
+                      </div>
+                      <p>
+                        Make use of developer tools to help solve any issue in society.
+                    </p>
                     </div>
                   </div>
                 </div>
@@ -324,34 +363,16 @@ export default function IndexPage() {
             </div>
           </div>
         </div>
-        <div className="resister_book resister_bg_1">
-          <div className="container">
-            <div className="row">
-              <div className="col-xl-12">
-                <div className="resister_text text-center">
-                  <h3>
-                    Register Now to participate <br />
-                    in the Event
-                  </h3>
-                  <a href="#" className="boxed-btn-white">
-                    Click Here
-                  </a>
-                </div>
+        <div className="container">
+          <div className="row">
+            <div className="col-xl-12">
+              <div className="serction_title_large mb-95">
+                <h3>Sponsors</h3>
               </div>
             </div>
           </div>
         </div>
-        <div className="flex justify-between items-center p-12">
-          <video width="400" height="300" loop autoplay className="focus:outline-none">
-            <source src="/img/dm.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-          <div>
-            <h1 className="text-5xl my-1 font-bold tracking-wide">Register Now to participate</h1>
-            <h1 className="text-5xl my-2 font-bold tracking-wide">in the Event</h1>
-          </div>
-        </div>
-        <div className="w-full pt-4 md:pt-16 md:pb-8 flex md:flex-row flex-col items-center md:justify-around">
+        <div className="w-full pt-4 md:pt-16 md:pb-8 flex md:flex-row flex-col items-center md:justify-around" style={{ marginBottom: "80px", }}>
           <div className="p-3">
             <img src="/devfolio.png" />
           </div>
@@ -362,6 +383,35 @@ export default function IndexPage() {
             <img src="/portis.png" />
           </div>
         </div>
+        <div className="resister_book resister_bg_1">
+          <div className="container">
+            <div className="row">
+              <div className="col-xl-12">
+                <div className="resister_text text-center">
+                  <h3>
+                    Specific sponsor track benefits and prizes!
+                  </h3>
+                  <ul>
+                    <li>Best hack using Ehereum gets Rs. 10,000!</li>
+                    <li>Best Dapp built on Portis gets Rs. 15,000!</li>
+                    <li>Best Dapp built on Tezos gets Rs. 20,000!</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="flex justify-between items-center p-12">
+          <video width="400" height="300" className="focus:outline-none" loop autoPlay>
+            <source src="/img/dm.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <div>
+            <h1 className="text-5xl my-1 font-bold tracking-wide">Register Now to participate</h1>
+            <h1 className="text-5xl my-2 font-bold tracking-wide">in the Event</h1>
+          </div>
+        </div>
+
         <div className="faq_area">
           <div className="container">
             <div className="row">
@@ -384,8 +434,12 @@ export default function IndexPage() {
                           aria-expanded="false"
                           aria-controls="collapseTwo"
                         >
-                          <img src="img/barnd/info.png" alt /> Is WordPress
-                          hosting worth it?
+                          <img src="img/barnd/info.png" style={{
+                            height: "50px",
+                            width: "50px",
+                            borderRadius: "50%",
+                            float: "left",
+                          }} alt /> Do I need to pay any money to register for the Hackathon?
                         </button>
                       </h5>
                     </div>
@@ -397,9 +451,7 @@ export default function IndexPage() {
                       style={{}}
                     >
                       <div className="card-body">
-                        Our set he for firmament morning sixth subdue darkness
-                        creeping gathered divide our let god moving. Moving in
-                        fourth air night bring upon
+                      No. You do not have to pay anything to anyone to register yourself for any Hackathon on Devfolio.
                       </div>
                     </div>
                   </div>
@@ -413,9 +465,13 @@ export default function IndexPage() {
                           aria-expanded="true"
                           aria-controls="collapseOne"
                         >
-                          <img src="img/barnd/info.png" alt />
-                          What are the advantages{" "}
-                          <span>of WordPress hosting over shared?</span>
+                          <img src="img/barnd/info.png" style={{
+                            height: "50px",
+                            width: "50px",
+                            borderRadius: "50%",
+                            float: "left",
+                          }} alt />
+                           Do I need to have any specific qualifications to be a participant for the Hackathon?{" "}
                         </button>
                       </h5>
                     </div>
@@ -427,9 +483,7 @@ export default function IndexPage() {
                       style={{}}
                     >
                       <div className="card-body">
-                        Our set he for firmament morning sixth subdue darkness
-                        creeping gathered divide our let god moving. Moving in
-                        fourth air night bring upon
+                      If you love to code, you are more than welcome to participate in the Hackathon.
                       </div>
                     </div>
                   </div>
@@ -443,7 +497,13 @@ export default function IndexPage() {
                           aria-expanded="false"
                           aria-controls="collapseThree"
                         >
-                          <img src="img/barnd/info.png" alt /> Where the Venue?
+                          <img src="img/barnd/info.png" style={{
+                            height: "50px",
+                            width: "50px",
+                            borderRadius: "50%",
+                            float: "left",
+                          }} alt /> How do I submit what I have made for the Hackathon?
+
                         </button>
                       </h5>
                     </div>
@@ -455,9 +515,7 @@ export default function IndexPage() {
                       style={{}}
                     >
                       <div className="card-body">
-                        Our set he for firmament morning sixth subdue darkness
-                        creeping gathered divide our let god moving. Moving in
-                        fourth air night bring upon
+                      You have to develop the application on your local system and submit it on DevFolio in tar/zip file format along with instructions to run the application and source code.
                       </div>
                     </div>
                   </div>
@@ -471,8 +529,12 @@ export default function IndexPage() {
                           aria-expanded="false"
                           aria-controls="collapse_4"
                         >
-                          <img src="img/barnd/info.png" alt /> How can I attend{" "}
-                          <span>the Event from Asia?</span>
+                          <img src="img/barnd/info.png" style={{
+                            height: "50px",
+                            width: "50px",
+                            borderRadius: "50%",
+                            float: "left",
+                          }} alt />  Do we need to have the entire idea fully working? 
                         </button>
                       </h5>
                     </div>
@@ -484,9 +546,131 @@ export default function IndexPage() {
                       style={{}}
                     >
                       <div className="card-body">
-                        Our set he for firmament morning sixth subdue darkness
-                        creeping gathered divide our let god moving. Moving in
-                        fourth air night bring upon
+                      The entire idea need not be fully implemented however, the submission should be functional so that it can be reviewed by the judges.
+                      </div>
+                    </div>
+                  </div>
+                  <div className="card">
+                    <div className="card-header" id="heading_5">
+                      <h5 className="mb-0">
+                        <button
+                          className="btn btn-link collapsed"
+                          data-toggle="collapse"
+                          data-target="#collapse_5"
+                          aria-expanded="false"
+                          aria-controls="collapse_5"
+                        >
+                          <img src="img/barnd/info.png" style={{
+                            height: "50px",
+                            width: "50px",
+                            borderRadius: "50%",
+                            float: "left",
+                          }} alt />  Do we need to have the entire idea fully working? 
+                        </button>
+                      </h5>
+                    </div>
+                    <div
+                      id="collapse_5"
+                      className="collapse"
+                      aria-labelledby="heading_5"
+                      data-parent="#accordion"
+                      style={{}}
+                    >
+                      <div className="card-body">
+                      You have to develop the entire software application on your local system and submit it on Devfolio in tar/zip file format along with instructions to run the application and source code. If it is a mobile app, package it as an apk and send along with the source code.
+                      </div>
+                    </div>
+                  </div>
+                  <div className="card">
+                    <div className="card-header" id="heading_6">
+                      <h5 className="mb-0">
+                        <button
+                          className="btn btn-link collapsed"
+                          data-toggle="collapse"
+                          data-target="#collapse_6"
+                          aria-expanded="false"
+                          aria-controls="collapse_6"
+                        >
+                          <img src="img/barnd/info.png" style={{
+                            height: "50px",
+                            width: "50px",
+                            borderRadius: "50%",
+                            float: "left",
+                          }} alt />   Does one have to be online and available for the entire duration of the Hackathon? 
+                        </button>
+                      </h5>
+                    </div>
+                    <div
+                      id="collapse_6"
+                      className="collapse"
+                      aria-labelledby="heading_6"
+                      data-parent="#accordion"
+                      style={{}}
+                    >
+                      <div className="card-body">
+                      No, one does not need to be logged in on DevFolio or be online for the entire duration. You can develop the application on your local system based on the given themes and then submit it on DevFolio, on the specific challenge page.
+                      </div>
+                    </div>
+                  </div>
+                  <div className="card">
+                    <div className="card-header" id="heading_7">
+                      <h5 className="mb-0">
+                        <button
+                          className="btn btn-link collapsed"
+                          data-toggle="collapse"
+                          data-target="#collapse_7"
+                          aria-expanded="false"
+                          aria-controls="collapse_7"
+                        >
+                          <img src="img/barnd/info.png" style={{
+                            height: "50px",
+                            width: "50px",
+                            borderRadius: "50%",
+                            float: "left",
+                          }} alt />   Since there is no specific technology mentioned, are there any restrictions on using number of pre-built libraries? 
+                        </button>
+                      </h5>
+                    </div>
+                    <div
+                      id="collapse_7"
+                      className="collapse"
+                      aria-labelledby="heading_7"
+                      data-parent="#accordion"
+                      style={{}}
+                    >
+                      <div className="card-body">
+                      There is no restriction to use any language, technology stack, or libraries. You can use any of them to create the web/mobile application.
+                      </div>
+                    </div>
+                  </div>
+                  <div className="card">
+                    <div className="card-header" id="heading_7">
+                      <h5 className="mb-0">
+                        <button
+                          className="btn btn-link collapsed"
+                          data-toggle="collapse"
+                          data-target="#collapse_7"
+                          aria-expanded="false"
+                          aria-controls="collapse_7"
+                        >
+                          <img src="img/barnd/info.png" style={{
+                            height: "50px",
+                            width: "50px",
+                            borderRadius: "50%",
+                            float: "left",
+                          }} alt />   Do I need to give a demo for the product that I have built?  
+                        </button>
+                      </h5>
+                    </div>
+                    <div
+                      id="collapse_7"
+                      className="collapse"
+                      aria-labelledby="heading_7"
+                      data-parent="#accordion"
+                      style={{}}
+                    >
+                      <div className="card-body">
+                      If you want you can submit a small presentation or video that demos your submission, however it's not mandatory, and only good to have. In case you are one of the winners, you might be invited to demo your application at a physical event, details of which will be shared with sufficient advance notice.
                       </div>
                     </div>
                   </div>

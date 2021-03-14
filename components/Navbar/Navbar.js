@@ -9,8 +9,13 @@ export default function Navbar() {
             <div className="row align-items-center justify-content-between no-gutters">
               <div className="col-xl-2 col-lg-2">
                 <div className="logo-img">
-                  <a href="index-2.html">
-                    <img src="img/logo.png" alt />
+                  <a href="#" style={{ display: "flex"}}>
+                   <img src="img/aarohan-logo.png" style={{
+                      height: "50px",
+                      width: "50px",
+                      borderRadius: "50%",
+                      float: "left",
+                    }} />&nbsp;&nbsp;<img src="img/logo.png" style={{ float: "left", }} alt />
                   </a>
                 </div>
               </div>
@@ -19,22 +24,15 @@ export default function Navbar() {
                   <nav>
                     <ul id="navigation">
                       <li>
-                        <a className="active" href="index-2.html">
+                        <a className="active" href="#">
                           home
                         </a>
                       </li>
                       <li>
-                        <a href="Schedule.html">Schedule</a>
-                      </li>
-                  
-                      <li>
-                        <a href="Speakers.html">Speakers</a>
+                        <a target="_blank" href="Schedule.html">Schedule</a>
                       </li>
                       <li>
-                        <a href="Venue.html">Venue</a>
-                      </li>
-                      <li>
-                        <a href="contact.html">Contact</a>
+                        <a target="_blank" href="#">Discord</a>
                       </li>
                     </ul>
                   </nav>
@@ -43,7 +41,7 @@ export default function Navbar() {
               <div className="col-xl-2 col-lg-2 d-none d-lg-block">
                 <div className="buy_ticket">
                   <a href="#" className="boxed-btn-white">
-                    Buy Ticket
+                    Register!
                   </a>
                 </div>
               </div>
