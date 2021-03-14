@@ -330,15 +330,25 @@ export default function IndexPage() {
               <div className="col-xl-12">
                 <div className="resister_text text-center">
                   <h3>
-                    Register Now to Book <br />
-                    Your Presence
+                    Register Now to participate <br />
+                    in the Event
                   </h3>
                   <a href="#" className="boxed-btn-white">
-                    Book Now ($150){" "}
+                    Click Here
                   </a>
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+        <div className="flex justify-between items-center p-12">
+          <video width="400" height="300" loop autoplay className="focus:outline-none">
+            <source src="/img/dm.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <div>
+            <h1 className="text-5xl my-1 font-bold tracking-wide">Register Now to participate</h1>
+            <h1 className="text-5xl my-2 font-bold tracking-wide">in the Event</h1>
           </div>
         </div>
         <div className="w-full pt-4 md:pt-16 md:pb-8 flex md:flex-row flex-col items-center md:justify-around">

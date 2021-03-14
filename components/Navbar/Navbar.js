@@ -26,29 +26,7 @@ export default function Navbar() {
                       <li>
                         <a href="Schedule.html">Schedule</a>
                       </li>
-                      <li>
-                        <a href="#">
-                          blog <i className="ti-angle-down" />
-                        </a>
-                        <ul className="submenu">
-                          <li>
-                            <a href="blog.html">blog</a>
-                          </li>
-                          <li>
-                            <a href="single-blog.html">single-blog</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li>
-                        <a href="#">
-                          pages <i className="ti-angle-down" />
-                        </a>
-                        <ul className="submenu">
-                          <li>
-                            <a href="elements.html">elements</a>
-                          </li>
-                        </ul>
-                      </li>
+                  
                       <li>
                         <a href="Speakers.html">Speakers</a>
                       </li>
