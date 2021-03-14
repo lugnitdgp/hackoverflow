@@ -382,6 +382,9 @@ export default function IndexPage() {
           <div className="p-3">
             <img src="/portis.png" />
           </div>
+          <div className="p-3">
+            <img src="/Portis_Logo-Colored.png" />
+          </div>
         </div>
         <div className="resister_book resister_bg_1">
           <div className="container">
@@ -392,7 +395,7 @@ export default function IndexPage() {
                     Specific sponsor track benefits and prizes!
                   </h3>
                   <ul>
-                    <li>Best hack using Ehereum gets Rs. 10,000!</li>
+                    <li>Best hack using Ethereum gets Rs. 10,000!</li>
                     <li>Best Dapp built on Portis gets Rs. 15,000!</li>
                     <li>Best Dapp built on Tezos gets Rs. 20,000!</li>
                   </ul>

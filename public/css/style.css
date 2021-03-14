@@ -1108,7 +1108,7 @@ h3 {
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
 .slider_bg_1 {
-  background-image: url(../img/banner_new.jpeg), linear-gradient(
+  background-image: url(../img/banner_new.jpg), linear-gradient(
     180deg,
     rgba(2, 0, 36, 1) 0%,
     rgba(26, 22, 96, 1) 100%
