@@ -5911,7 +5911,7 @@ h6 {
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   /* line 150, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog_part.scss */
   .text-black {
-    font-size: 35px;
+    font-size: 30px;
   }
 }
 
@@ -5932,5 +5932,8 @@ h6 {
 @media only screen and (min-width: 1201px) {
   #register-2 {
     display: none;
+  }
+  .text-black {
+    font-size: 30px;
   }
 }
