@@ -13,7 +13,11 @@ export default function IndexPage() {
         <title>Hackoverflow 4.0</title>
         <meta name="description" content />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="shortcut icon" type="image/x-icon" href="img/aarohan-logo.png" />
+        <link
+          rel="shortcut icon"
+          type="image/x-icon"
+          href="img/aarohan-logo.png"
+        />
         <link rel="stylesheet" href="/css/bootstrap.min.css" />
         <link rel="stylesheet" href="/css/owl.carousel.min.css" />
         <link rel="stylesheet" href="/css/magnific-popup.css" />
@@ -50,7 +54,13 @@ export default function IndexPage() {
         <script src="/js/jquery.validate.min.js"></script>
         <script src="/js/mail-script.js"></script>
         <script src="/js/main.js"></script>
-        <script type="text/javascript" id="hs-script-loader" src="https://js.hs-scripts.com/19507545.js" async defer></script>
+        <script
+          type="text/javascript"
+          id="hs-script-loader"
+          src="https://js.hs-scripts.com/19507545.js"
+          async
+          defer
+        ></script>
       </Head>
       <div>
         <Navbar />
@@ -63,11 +73,15 @@ export default function IndexPage() {
                   <div className="col-xl-9">
                     <div className="title_text">
                       <h3>
-                        HackOverflow 4.0<br />
+                        HackOverflow 4.0
+                        <br />
                         <br />
                         Aarohan, 2021
                       </h3>
-                      <a href="https://calendar.google.com/calendar/r/eventedit?text=Hackoverflow+4.0&dates=20210402/20210403" className="boxed-btn-white">
+                      <a
+                        href="https://calendar.google.com/calendar/r/eventedit?text=Hackoverflow+4.0&dates=20210402/20210403"
+                        className="boxed-btn-white"
+                      >
                         Add to your Calendar
                       </a>
                     </div>
@@ -123,10 +137,16 @@ export default function IndexPage() {
                     </h3>
                   </div>
                   <p>
-                    <br /><br />
-                    Hackoverflow 4.0 is conducted by team Aavishkar during Aarohan, the second largest techno-management of Eastern India!
+                    <br />
+                    <br />
+                    Hackoverflow 4.0 is conducted by team Aavishkar during
+                    Aarohan, the second largest techno-management of Eastern
+                    India!
                   </p>
-                  <a href="https://www.facebook.com/arhn.nitd/" className="boxed-btn-red">
+                  <a
+                    href="https://www.facebook.com/arhn.nitd/"
+                    className="boxed-btn-red"
+                  >
                     Learn More about Aarohan
                   </a>
                 </div>
@@ -258,13 +278,16 @@ export default function IndexPage() {
                         height: "90px",
                         width: "90px",
                         borderRadius: "50%",
-                      }}/>
+                      }}
+                    />
                     <div className="speaker-name">
                       <div className="heading d-flex justify-content-between align-items-center">
                         <span>Sustainability</span>
                       </div>
                       <p>
-                        Development of society often leads to imbalance in the environment. New technological tools can be used to have sustainable growth. {" "}
+                        Development of society often leads to imbalance in the
+                        environment. New technological tools can be used to have
+                        sustainable growth.{" "}
                       </p>
                     </div>
                   </div>
@@ -282,7 +305,10 @@ export default function IndexPage() {
                         <span>Blockchain Technology**</span>
                       </div>
                       <p>
-                        Keeping all important data in one place is risky. So it’s better to keep important data at decentralised locations. Any web/mobile app can make use of this concept. {" "}
+                        Keeping all important data in one place is risky. So
+                        it’s better to keep important data at decentralised
+                        locations. Any web/mobile app can make use of this
+                        concept.{" "}
                       </p>
                     </div>
                   </div>
@@ -300,7 +326,9 @@ export default function IndexPage() {
                         <span>Education</span>
                       </div>
                       <p>
-                        Our education system has not updated since long but technological advancements have been rapid. Upcoming technology can help students better grasp concepts.{" "}
+                        Our education system has not updated since long but
+                        technological advancements have been rapid. Upcoming
+                        technology can help students better grasp concepts.{" "}
                       </p>
                     </div>
                   </div>
@@ -318,7 +346,10 @@ export default function IndexPage() {
                         <span>Agriculture</span>
                       </div>
                       <p>
-                        Producing and distributing food materials is a challenge with many environmental as well as government policies affecting it. Make use of technology to ease this problem.
+                        Producing and distributing food materials is a challenge
+                        with many environmental as well as government policies
+                        affecting it. Make use of technology to ease this
+                        problem.
                       </p>
                     </div>
                   </div>
@@ -336,8 +367,9 @@ export default function IndexPage() {
                         <span>Law and Order</span>
                       </div>
                       <p>
-                        Several laws are made by the government. Use development tools to assist officers of law and citizens.
-                    </p>
+                        Several laws are made by the government. Use development
+                        tools to assist officers of law and citizens.
+                      </p>
                     </div>
                   </div>
                   <div className="single_speaker">
@@ -354,8 +386,9 @@ export default function IndexPage() {
                         <span>Open Innovation</span>
                       </div>
                       <p>
-                        Make use of developer tools to help solve any issue in society.
-                    </p>
+                        Make use of developer tools to help solve any issue in
+                        society.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -369,28 +402,72 @@ export default function IndexPage() {
             <div className="row">
               <div className="col-xl-12">
                 <div className="resister_text text-center">
-                  <h3>
-                    Specific sponsor track benefits and prizes!
-                  </h3>
+                  <h3>Specific sponsor track benefits and prizes!</h3>
                   <ul>
-                    <li className="text-sm md:text-lg">Best hack using Ethereum gets Rs. 10,000!</li>
-                    <li>Best Dapp built on Portis gets Rs. 15,000!</li>
-                    <li>Best Dapp built on Tezos gets Rs. 20,000!</li>
+                    <li>
+                      <div className="p-4 flex items-center bg-white justify-around rounded shadow">
+                        <img
+                          src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Ethereum-icon-purple.svg/1200px-Ethereum-icon-purple.svg.png"
+                          className="w-40 h-40"
+                        />
+                        <span className="text-black">
+                          Best hack using Ethereum gets Rs. 10,000 !
+                        </span>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="p-4 flex items-center bg-white justify-around rounded shadow">
+                        <img
+                          src="http://searchvectorlogo.com/wp-content/uploads/2019/10/portis-io-logo-vector.png"
+                          className="w-64 h-40"
+                        />
+                        <span className="text-black">
+                          Best Dapp built on Portis gets Rs. 15,000 !
+                        </span>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="p-4 flex items-center bg-white justify-around rounded shadow">
+                        <img
+                          src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Tezos_logo.svg/1200px-Tezos_logo.svg.png"
+                          className="w-40 h-40"
+                        />
+                        <span className="text-black">
+                          Best Dapp built on Tezos gets Rs. 20,000 !
+                        </span>
+                      </div>
+                    </li>
+                    <li></li>
                   </ul>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="w-full pt-4 md:pt-16 md:pb-8 flex md:flex-row flex-col items-center md:justify-around" style={{ marginBottom: "80px", }}>
-          <video width="400" height="300" className="focus:outline-none" loop autoPlay>
+        <div
+          className="w-full pt-4 md:pt-16 md:pb-8 flex md:flex-row flex-col items-center md:justify-around"
+          style={{ marginBottom: "80px" }}
+        >
+          <video
+            width="400"
+            height="300"
+            className="focus:outline-none"
+            loop
+            autoPlay
+          >
             <source src="/img/dm.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
           <div className="resister_text text-center">
             <ul>
-            <li><h1 style={{ fontSize: "25px", }}>Register Now to participate</h1></li>
-            <li><h1 style={{ fontSize: "25px", }}>in the Event!</h1></li>
+              <li>
+                <h1 style={{ fontSize: "25px" }}>
+                  Register Now to participate
+                </h1>
+              </li>
+              <li>
+                <h1 style={{ fontSize: "25px" }}>in the Event!</h1>
+              </li>
             </ul>
           </div>
         </div>
@@ -421,13 +498,18 @@ export default function IndexPage() {
                             wordWrap: "break-word",
                           }}
                         >
-                          <img src="img/barnd/info.png" style={{
-                            height: "50px",
-                            width: "50px",
-                            borderRadius: "50%",
-                            float: "left",
-                          }} alt /> Do I need to pay any money 
-                          to register for the Hackathon?
+                          <img
+                            src="img/barnd/info.png"
+                            style={{
+                              height: "50px",
+                              width: "50px",
+                              borderRadius: "50%",
+                              float: "left",
+                            }}
+                            alt
+                          />{" "}
+                          Do I need to pay any money to register for the
+                          Hackathon?
                         </button>
                       </h5>
                     </div>
@@ -439,7 +521,8 @@ export default function IndexPage() {
                       style={{}}
                     >
                       <div className="card-body">
-                      No. You do not have to pay anything to anyone to register yourself for any Hackathon on Devfolio.
+                        No. You do not have to pay anything to anyone to
+                        register yourself for any Hackathon on Devfolio.
                       </div>
                     </div>
                   </div>
@@ -457,14 +540,18 @@ export default function IndexPage() {
                             wordWrap: "break-word",
                           }}
                         >
-                          <img src="img/barnd/info.png" style={{
-                            height: "50px",
-                            width: "50px",
-                            borderRadius: "50%",
-                            float: "left",
-                          }} alt />
-                           Do I need to have any specific qualifications to be a participant
-                           for the Hackathon?{" "}
+                          <img
+                            src="img/barnd/info.png"
+                            style={{
+                              height: "50px",
+                              width: "50px",
+                              borderRadius: "50%",
+                              float: "left",
+                            }}
+                            alt
+                          />
+                          Do I need to have any specific qualifications to be a
+                          participant for the Hackathon?{" "}
                         </button>
                       </h5>
                     </div>
@@ -476,7 +563,8 @@ export default function IndexPage() {
                       style={{}}
                     >
                       <div className="card-body">
-                      If you love to code, you are more than welcome to participate in the Hackathon.
+                        If you love to code, you are more than welcome to
+                        participate in the Hackathon.
                       </div>
                     </div>
                   </div>
@@ -494,13 +582,17 @@ export default function IndexPage() {
                             wordWrap: "break-word",
                           }}
                         >
-                          <img src="img/barnd/info.png" style={{
-                            height: "50px",
-                            width: "50px",
-                            borderRadius: "50%",
-                            float: "left",
-                          }} alt /> How do I submit what I have made for the Hackathon?
-
+                          <img
+                            src="img/barnd/info.png"
+                            style={{
+                              height: "50px",
+                              width: "50px",
+                              borderRadius: "50%",
+                              float: "left",
+                            }}
+                            alt
+                          />{" "}
+                          How do I submit what I have made for the Hackathon?
                         </button>
                       </h5>
                     </div>
@@ -512,7 +604,10 @@ export default function IndexPage() {
                       style={{}}
                     >
                       <div className="card-body">
-                      You have to develop the application on your local system and submit it on DevFolio in tar/zip file format along with instructions to run the application and source code.
+                        You have to develop the application on your local system
+                        and submit it on DevFolio in tar/zip file format along
+                        with instructions to run the application and source
+                        code.
                       </div>
                     </div>
                   </div>
@@ -530,12 +625,17 @@ export default function IndexPage() {
                             wordWrap: "break-word",
                           }}
                         >
-                          <img src="img/barnd/info.png" style={{
-                            height: "50px",
-                            width: "50px",
-                            borderRadius: "50%",
-                            float: "left",
-                          }} alt />  Do we need to have the entire idea fully working? 
+                          <img
+                            src="img/barnd/info.png"
+                            style={{
+                              height: "50px",
+                              width: "50px",
+                              borderRadius: "50%",
+                              float: "left",
+                            }}
+                            alt
+                          />{" "}
+                          Do we need to have the entire idea fully working?
                         </button>
                       </h5>
                     </div>
@@ -547,7 +647,9 @@ export default function IndexPage() {
                       style={{}}
                     >
                       <div className="card-body">
-                      The entire idea need not be fully implemented however, the submission should be functional so that it can be reviewed by the judges.
+                        The entire idea need not be fully implemented however,
+                        the submission should be functional so that it can be
+                        reviewed by the judges.
                       </div>
                     </div>
                   </div>
@@ -565,12 +667,17 @@ export default function IndexPage() {
                             wordWrap: "break-word",
                           }}
                         >
-                          <img src="img/barnd/info.png" style={{
-                            height: "50px",
-                            width: "50px",
-                            borderRadius: "50%",
-                            float: "left",
-                          }} alt />  Do we need to have the entire idea fully working? 
+                          <img
+                            src="img/barnd/info.png"
+                            style={{
+                              height: "50px",
+                              width: "50px",
+                              borderRadius: "50%",
+                              float: "left",
+                            }}
+                            alt
+                          />{" "}
+                          Do we need to have the entire idea fully working?
                         </button>
                       </h5>
                     </div>
@@ -582,7 +689,12 @@ export default function IndexPage() {
                       style={{}}
                     >
                       <div className="card-body">
-                      You have to develop the entire software application on your local system and submit it on Devfolio in tar/zip file format along with instructions to run the application and source code. If it is a mobile app, package it as an apk and send along with the source code.
+                        You have to develop the entire software application on
+                        your local system and submit it on Devfolio in tar/zip
+                        file format along with instructions to run the
+                        application and source code. If it is a mobile app,
+                        package it as an apk and send along with the source
+                        code.
                       </div>
                     </div>
                   </div>
@@ -600,12 +712,18 @@ export default function IndexPage() {
                             wordWrap: "break-word",
                           }}
                         >
-                          <img src="img/barnd/info.png" style={{
-                            height: "50px",
-                            width: "50px",
-                            borderRadius: "50%",
-                            float: "left",
-                          }} alt />   Does one have to be online and available for the entire duration of the Hackathon? 
+                          <img
+                            src="img/barnd/info.png"
+                            style={{
+                              height: "50px",
+                              width: "50px",
+                              borderRadius: "50%",
+                              float: "left",
+                            }}
+                            alt
+                          />{" "}
+                          Does one have to be online and available for the
+                          entire duration of the Hackathon?
                         </button>
                       </h5>
                     </div>
@@ -617,7 +735,11 @@ export default function IndexPage() {
                       style={{}}
                     >
                       <div className="card-body">
-                      No, one does not need to be logged in on DevFolio or be online for the entire duration. You can develop the application on your local system based on the given themes and then submit it on DevFolio, on the specific challenge page.
+                        No, one does not need to be logged in on DevFolio or be
+                        online for the entire duration. You can develop the
+                        application on your local system based on the given
+                        themes and then submit it on DevFolio, on the specific
+                        challenge page.
                       </div>
                     </div>
                   </div>
@@ -635,12 +757,19 @@ export default function IndexPage() {
                             wordWrap: "break-word",
                           }}
                         >
-                          <img src="img/barnd/info.png" style={{
-                            height: "50px",
-                            width: "50px",
-                            borderRadius: "50%",
-                            float: "left",
-                          }} alt />   Since there is no specific technology mentioned, are there any restrictions on using number of pre-built libraries? 
+                          <img
+                            src="img/barnd/info.png"
+                            style={{
+                              height: "50px",
+                              width: "50px",
+                              borderRadius: "50%",
+                              float: "left",
+                            }}
+                            alt
+                          />{" "}
+                          Since there is no specific technology mentioned, are
+                          there any restrictions on using number of pre-built
+                          libraries?
                         </button>
                       </h5>
                     </div>
@@ -652,7 +781,9 @@ export default function IndexPage() {
                       style={{}}
                     >
                       <div className="card-body">
-                      There is no restriction to use any language, technology stack, or libraries. You can use any of them to create the web/mobile application.
+                        There is no restriction to use any language, technology
+                        stack, or libraries. You can use any of them to create
+                        the web/mobile application.
                       </div>
                     </div>
                   </div>
@@ -670,12 +801,18 @@ export default function IndexPage() {
                             wordWrap: "break-word",
                           }}
                         >
-                          <img src="img/barnd/info.png" style={{
-                            height: "50px",
-                            width: "50px",
-                            borderRadius: "50%",
-                            float: "left",
-                          }} alt />   Do I need to give a demo for the product that I have built?  
+                          <img
+                            src="img/barnd/info.png"
+                            style={{
+                              height: "50px",
+                              width: "50px",
+                              borderRadius: "50%",
+                              float: "left",
+                            }}
+                            alt
+                          />{" "}
+                          Do I need to give a demo for the product that I have
+                          built?
                         </button>
                       </h5>
                     </div>
@@ -687,7 +824,12 @@ export default function IndexPage() {
                       style={{}}
                     >
                       <div className="card-body">
-                      If you want you can submit a small presentation or video that demos your submission, however it's not mandatory, and only good to have. In case you are one of the winners, you might be invited to demo your application at a physical event, details of which will be shared with sufficient advance notice.
+                        If you want you can submit a small presentation or video
+                        that demos your submission, however it's not mandatory,
+                        and only good to have. In case you are one of the
+                        winners, you might be invited to demo your application
+                        at a physical event, details of which will be shared
+                        with sufficient advance notice.
                       </div>
                     </div>
                   </div>
