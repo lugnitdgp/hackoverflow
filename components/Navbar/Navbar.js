@@ -59,7 +59,7 @@ export default function Navbar() {
             <div className="row align-items-center justify-content-between no-gutters">
               <div className="col-xl-2 col-lg-2">
                 <div className="logo-img">
-                  <a href="#" style={{ display: "flex"}}>
+                  <a href="/" style={{ display: "flex"}}>
                    <img src="img/aarohan-logo.png" style={{
                       height: "50px",
                       width: "50px",

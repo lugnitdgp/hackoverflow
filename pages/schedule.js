@@ -62,7 +62,7 @@ export default function SchedulePage() {
                                                 <h3>Event Schedule</h3>
                                                 <a href="https://calendar.google.com/calendar/r/eventedit?text=Hackoverflow+4.0&dates=20210402/20210403" className="boxed-btn-white">
                                                     Add to your Calendar
-                </a><br/><br/>
+                </a><br /><br />
                                                 <a
                                                     className="boxed-btn-white"
                                                     id="register-2"
@@ -95,6 +95,23 @@ export default function SchedulePage() {
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <div style={{ width: "100%", height: "300px", display: "flex", justifyContent: "center", alignItems: "center", flexWrap: "wrap" }}>
+                            <a
+                                className="boxed-btn-white"
+                                href="https://discord.gg/5G5aJ8DxWu"
+                                id="register-2"
+                            >
+                                Join Discord
+                      </a>
+                      &nbsp; &nbsp;  &nbsp;
+                      <a
+                                className="boxed-btn-white"
+                                href="/schedule"
+                                id="register-2"
+                            >
+                                Schedule
+                      </a>
                         </div>
                     </div>
                     <div className="event_area plus_padding">
