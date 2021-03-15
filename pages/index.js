@@ -87,10 +87,10 @@ export default function IndexPage() {
                           Add to your Calendar
                       </a>
                         <br /><br />
-                        <a
-                          className="boxed-btn-white"
-                          id="register-2"
-                        >
+                      <a
+                        className="boxed-btn-white"
+                        id="register-2"
+                      >
                           Register
                       </a>
                       </div>
@@ -120,7 +120,25 @@ export default function IndexPage() {
                 </div>
               </div>
             </div>
+            <div style={{width:"100%", height:"300px", display:"flex", justifyContent:"center", alignItems:"center", flexWrap:"wrap"}}>
+                      <a
+                        className="boxed-btn-white"
+                        href="https://discord.gg/5G5aJ8DxWu"
+                        id="register-2"
+                      >
+                          Join Discord
+                      </a> 
+                      &nbsp; &nbsp;  &nbsp;
+                      <a
+                        className="boxed-btn-white"
+                        href="/schedule"
+                        id="register-2"
+                      >
+                          Schedule
+                      </a>
           </div>
+          </div>
+          
           <div className="about_area">
             <div className="shape-1 d-none d-xl-block">
               <img src="img/about/shap1.png" alt />
