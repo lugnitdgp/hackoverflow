@@ -2,6 +2,7 @@ import Head from "next/head";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Timer from "../components/Timer";
+import Sponsors from "../components/sponsors";
 
 export default function IndexPage() {
   return (
@@ -133,7 +134,7 @@ export default function IndexPage() {
             </div>
           </div>
         </div>
-        <div className="speakers_area">
+        {/* <div className="speakers_area">
           <h1 className="horizontal_text d-none d-lg-block">Judges</h1>
           <div className="container">
             <div className="row">
@@ -238,7 +239,7 @@ export default function IndexPage() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="event_area">
           <h1 className="vr_text d-none d-lg-block">Themes List</h1>
           <div className="container">
@@ -363,29 +364,7 @@ export default function IndexPage() {
             </div>
           </div>
         </div>
-        <div className="container">
-          <div className="row">
-            <div className="col-xl-12">
-              <div className="serction_title_large mb-95">
-                <h3>Sponsors</h3>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="w-full pt-4 md:pt-16 md:pb-8 flex md:flex-row flex-col items-center md:justify-around" style={{ marginBottom: "80px", }}>
-          <div className="p-3">
-            <img src="/devfolio.png" />
-          </div>
-          <div className="p-3">
-            <img src="/tezos.png" />
-          </div>
-          <div className="p-3">
-            <img src="/portis.png" />
-          </div>
-          <div className="p-3">
-            <img src="/Portis_Logo-Colored.png" />
-          </div>
-        </div>
+        <Sponsors />
         <div className="resister_book resister_bg_1">
           <div className="container">
             <div className="row">
@@ -395,7 +374,7 @@ export default function IndexPage() {
                     Specific sponsor track benefits and prizes!
                   </h3>
                   <ul>
-                    <li>Best hack using Ethereum gets Rs. 10,000!</li>
+                    <li className="text-sm md:text-lg">Best hack using Ethereum gets Rs. 10,000!</li>
                     <li>Best Dapp built on Portis gets Rs. 15,000!</li>
                     <li>Best Dapp built on Tezos gets Rs. 20,000!</li>
                   </ul>
@@ -404,14 +383,16 @@ export default function IndexPage() {
             </div>
           </div>
         </div>
-        <div className="flex justify-between items-center p-12">
+        <div className="w-full pt-4 md:pt-16 md:pb-8 flex md:flex-row flex-col items-center md:justify-around" style={{ marginBottom: "80px", }}>
           <video width="400" height="300" className="focus:outline-none" loop autoPlay>
             <source src="/img/dm.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
-          <div>
-            <h1 className="text-5xl my-1 font-bold tracking-wide">Register Now to participate</h1>
-            <h1 className="text-5xl my-2 font-bold tracking-wide">in the Event</h1>
+          <div className="resister_text text-center">
+            <ul>
+            <li><h1 style={{ fontSize: "25px", }}>Register Now to participate</h1></li>
+            <li><h1 style={{ fontSize: "25px", }}>in the Event!</h1></li>
+            </ul>
           </div>
         </div>
 
@@ -436,13 +417,18 @@ export default function IndexPage() {
                           data-target="#collapseTwo"
                           aria-expanded="false"
                           aria-controls="collapseTwo"
+                          style={{
+                            whiteSpace: "normal",
+                            wordWrap: "break-word",
+                          }}
                         >
                           <img src="img/barnd/info.png" style={{
                             height: "50px",
                             width: "50px",
                             borderRadius: "50%",
                             float: "left",
-                          }} alt /> Do I need to pay any money to register for the Hackathon?
+                          }} alt /> Do I need to pay any money 
+                          to register for the Hackathon?
                         </button>
                       </h5>
                     </div>
@@ -467,6 +453,10 @@ export default function IndexPage() {
                           data-target="#collapseOne"
                           aria-expanded="true"
                           aria-controls="collapseOne"
+                          style={{
+                            whiteSpace: "normal",
+                            wordWrap: "break-word",
+                          }}
                         >
                           <img src="img/barnd/info.png" style={{
                             height: "50px",
@@ -474,7 +464,8 @@ export default function IndexPage() {
                             borderRadius: "50%",
                             float: "left",
                           }} alt />
-                           Do I need to have any specific qualifications to be a participant for the Hackathon?{" "}
+                           Do I need to have any specific qualifications to be a participant
+                           for the Hackathon?{" "}
                         </button>
                       </h5>
                     </div>
@@ -499,6 +490,10 @@ export default function IndexPage() {
                           data-target="#collapseThree"
                           aria-expanded="false"
                           aria-controls="collapseThree"
+                          style={{
+                            whiteSpace: "normal",
+                            wordWrap: "break-word",
+                          }}
                         >
                           <img src="img/barnd/info.png" style={{
                             height: "50px",
@@ -531,6 +526,10 @@ export default function IndexPage() {
                           data-target="#collapse_4"
                           aria-expanded="false"
                           aria-controls="collapse_4"
+                          style={{
+                            whiteSpace: "normal",
+                            wordWrap: "break-word",
+                          }}
                         >
                           <img src="img/barnd/info.png" style={{
                             height: "50px",
@@ -562,6 +561,10 @@ export default function IndexPage() {
                           data-target="#collapse_5"
                           aria-expanded="false"
                           aria-controls="collapse_5"
+                          style={{
+                            whiteSpace: "normal",
+                            wordWrap: "break-word",
+                          }}
                         >
                           <img src="img/barnd/info.png" style={{
                             height: "50px",
@@ -593,6 +596,10 @@ export default function IndexPage() {
                           data-target="#collapse_6"
                           aria-expanded="false"
                           aria-controls="collapse_6"
+                          style={{
+                            whiteSpace: "normal",
+                            wordWrap: "break-word",
+                          }}
                         >
                           <img src="img/barnd/info.png" style={{
                             height: "50px",
@@ -624,6 +631,10 @@ export default function IndexPage() {
                           data-target="#collapse_7"
                           aria-expanded="false"
                           aria-controls="collapse_7"
+                          style={{
+                            whiteSpace: "normal",
+                            wordWrap: "break-word",
+                          }}
                         >
                           <img src="img/barnd/info.png" style={{
                             height: "50px",
@@ -647,14 +658,18 @@ export default function IndexPage() {
                     </div>
                   </div>
                   <div className="card">
-                    <div className="card-header" id="heading_7">
+                    <div className="card-header" id="heading_8">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-toggle="collapse"
-                          data-target="#collapse_7"
+                          data-target="#collapse_8"
                           aria-expanded="false"
-                          aria-controls="collapse_7"
+                          aria-controls="collapse_8"
+                          style={{
+                            whiteSpace: "normal",
+                            wordWrap: "break-word",
+                          }}
                         >
                           <img src="img/barnd/info.png" style={{
                             height: "50px",
@@ -666,9 +681,9 @@ export default function IndexPage() {
                       </h5>
                     </div>
                     <div
-                      id="collapse_7"
+                      id="collapse_8"
                       className="collapse"
-                      aria-labelledby="heading_7"
+                      aria-labelledby="heading_8"
                       data-parent="#accordion"
                       style={{}}
                     >
