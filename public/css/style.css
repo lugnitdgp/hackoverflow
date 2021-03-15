@@ -5946,3 +5946,9 @@ h6 {
   align-items: flex-end !important;
   justify-content: end !important;
 }
+
+
+.mobile_menu {
+  z-index: 999 !important;
+  position: absolute !important;
+}

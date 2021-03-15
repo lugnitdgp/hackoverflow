@@ -62,7 +62,13 @@ export default function SchedulePage() {
                                                 <h3>Event Schedule</h3>
                                                 <a href="https://calendar.google.com/calendar/r/eventedit?text=Hackoverflow+4.0&dates=20210402/20210403" className="boxed-btn-white">
                                                     Add to your Calendar
-                </a>
+                </a><br/><br/>
+                                                <a
+                                                    className="boxed-btn-white"
+                                                    id="register-2"
+                                                >
+                                                    Register
+                      </a>
                                             </div>
                                         </div>
                                     </div>

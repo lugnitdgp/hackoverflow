@@ -18,6 +18,7 @@ export default function IndexPage() {
           type="image/x-icon"
           href="img/aarohan-logo.png"
         />
+        
           <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous"/>
           <link rel="stylesheet" href="/css/owl.carousel.min.css" />
           <link rel="stylesheet" href="/css/magnific-popup.css" />
@@ -30,7 +31,7 @@ export default function IndexPage() {
           <link rel="stylesheet" href="/css/style.css" />
 
           <script src="/js/vendor/modernizr-3.5.0.min.js"></script>
-          <script src="/js/vendor/jquery-1.12.4.min.js"></script>
+          <script src="//code.jquery.com/jquery-1.11.2.min.js"> </script>
           <script src="/js/popper.min.js"></script>
           <script src="/js/bootstrap.min.js"></script>
           <script src="/js/owl.carousel.min.js"></script>
@@ -43,7 +44,6 @@ export default function IndexPage() {
           <script src="/js/jquery.scrollUp.min.js"></script>
           <script src="/js/wow.min.js"></script>
           <script src="/js/nice-select.min.js"></script>
-          <script src="/js/jquery.slicknav.min.js"></script>
           <script src="/js/jquery.magnific-popup.min.js"></script>
           <script src="/js/jquery.countdown.js"></script>
           <script src="/js/plugins.js"></script>
@@ -62,6 +62,7 @@ export default function IndexPage() {
             defer
           ></script>
           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+          <script src="/js/jquery.slicknav.min.js"></script>
       </Head>
         <div>
           <Navbar />

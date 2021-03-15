@@ -1,150 +1,107 @@
 import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
-import AppBar from "@material-ui/core/AppBar";
-import Toolbar from "@material-ui/core/Toolbar";
-import Typography from "@material-ui/core/Typography";
-import IconButton from "@material-ui/core/IconButton";
-import MenuIcon from "@material-ui/icons/Menu";
-import Modal from "@material-ui/core/Modal";
-import Backdrop from "@material-ui/core/Backdrop";
-import Fade from "@material-ui/core/Fade";
-import Link from "next/link";
-import List from "@material-ui/core/List";
-import ListItem from "@material-ui/core/ListItem";
-
-import ClearIcon from "@material-ui/icons/Clear";
-
-const useStyles = makeStyles((theme) => ({
-    root: {
-        flexGrow: 1,
-        margin: "0px",
-        padding: "0px",
-        position: "fixed",
-        width: "100%",
-        zIndex: "999",
-    },
-    appbar: {
-        backgroundColor: "rgba(255,255,255,0.1)",
-        margin: "0px",
-        padding: "0px",
-        color: "#fff",
-        backdropFilter: "blur(5px)",
-        WebkitBackdropFilter: "blur(5px)",
-    },
-    toolbar: {
-        textAlign: "left",
-        margin: "0px",
-        padding: "0px",
-    },
-    menuButton: {
-        marginRight: theme.spacing(2),
-    },
-    title: {
-        flexGrow: 1,
-        paddingTop: "5px",
-        paddingLeft: "20px"
-    },
-    cross: {
-        position: "absolute",
-        top: "20px",
-        fontSize: "40px",
-        cursor: "pointer",
-    },
-    listitem: {
-        fontSize: "30px",
-        color: "#000",
-        textDecoration: "none",
-        fontWeight: "500",
-    },
-}));
 
 export default function Navbar() {
-    const classes = useStyles();
-    const [open, setOpen] = React.useState(false);
+  return (
+    <header className="bg-transparent">
+      {/* <nav className="navbar navbar-expand-lg navbar-dark fixed bg-transparent">
+        <div className="container-fluid bg-transparent">
+          <div className="logo-img">
+            <a href="#" style={{ display: "flex" }}>
+              <img src="img/aarohan-logo.png" style={{
+                height: "50px",
+                width: "50px",
+                borderRadius: "50%",
+                float: "left",
+              }} />&nbsp;&nbsp;<img src="img/logo.png" style={{ float: "left", }} alt />
+            </a>
+          </div>
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon" />
+          </button>
+          <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent" style={{ textAlign: "right" }}>
+            <ul className="navbar-nav ml-auto" id="navbar-drawer">
+              <li className="nav-item" style={{ fontFamily: "Poppins" }}>
+                <a className="nav-link active" aria-current="page" href="#">
+                  Home
+                </a>
+              </li>
+              <li className="nav-item" style={{ fontFamily: "Poppins" }}>
+                <a className="nav-link" href="#">
+                  Discord
+                </a>
+              </li>
+              <li className="nav-item" style={{ fontFamily: "Poppins" }}>
+                <a
+                  className="nav-link"
+                  href="/schedule"
+                >
+                  Schedule
+                </a>
+              </li>
+            </ul>
 
-    const handleOpen = () => {
-        setOpen(true);
-    };
-
-    const handleClose = () => {
-        setOpen(false);
-    };
-    return (
-        <div className={classes.root}>
-            <AppBar position="static" className={classes.appbar}>
-                <Toolbar className={classes.toolbar}>
-                    {" "}
-                    <img
-                        src="/logo.png"
-                        alt="."
-                        style={{
-                            height: "45px",
-                            marginLeft: "10px",
-                            left: "0",
-                            position: "relative",
-                        }}
-                    />
-                    <Typography variant="h6" className={classes.title}>
-                        <Link href="/">
-                            <div style={{ textDecoration: "none", cursor: "pointer" }}>
-                                Weblikate
-              </div>
-                        </Link>
-                    </Typography>
-                    <IconButton
-                        edge="start"
-                        className={classes.menuButton}
-                        color="inherit"
-                        aria-label="menu"
-                        onClick={handleOpen}
-                    >
-                        <MenuIcon />
-                    </IconButton>
-                    <Modal
-                        aria-labelledby="transition-modal-title"
-                        aria-describedby="transition-modal-description"
-                        className="modal"
-                        open={open}
-                        onClose={handleClose}
-                        closeAfterTransition
-                        keepMounted={true}
-                        BackdropComponent={Backdrop}
-                        BackdropProps={{
-                            timeout: 500,
-                        }}
-                    >
-                        <Fade in={open}>
-                            <div className="modalpaper">
-                                <ClearIcon className={classes.cross} onClick={handleClose} />
-                                <List>
-                                    <ListItem button key="Home">
-                                        <Link href="/">
-                                            <div className={classes.listitem}>HOME</div>
-                                        </Link>
-                                    </ListItem>
-
-                                    <ListItem button key="About">
-                                        <Link href="/about">
-                                            <div className={classes.listitem}>ABOUT</div>
-                                        </Link>
-                                    </ListItem>
-
-                                    <ListItem button key="Services">
-                                        <Link href="/services">
-                                            <div className={classes.listitem}>SERVICES</div>
-                                        </Link>
-                                    </ListItem>
-                                    <ListItem button key="Contact">
-                                        <Link href="/contact">
-                                            <div className={classes.listitem}>CONTACT</div>
-                                        </Link>
-                                    </ListItem>
-                                </List>
-                            </div>
-                        </Fade>
-                    </Modal>
-                </Toolbar>
-            </AppBar>
+          </div>
         </div>
-    );
+      </nav> */}
+
+
+      <div className="header-area ">
+        <div id="sticky-header" className="main-header-area ">
+          <div className="container-fluid p-0">
+            <div className="row align-items-center justify-content-between no-gutters">
+              <div className="col-xl-2 col-lg-2">
+                <div className="logo-img">
+                  <a href="#" style={{ display: "flex"}}>
+                   <img src="img/aarohan-logo.png" style={{
+                      height: "50px",
+                      width: "50px",
+                      borderRadius: "50%",
+                      float: "left",
+                    }} />&nbsp;&nbsp;<img src="img/logo.png" style={{ float: "left", }} alt />
+                  </a>
+                </div>
+              </div>
+              <div className="col-xl-8 col-lg-8">
+                <div className="main-menu d-none d-lg-block">
+                  <nav>
+                    <ul id="navigation">
+                      <li>
+                        <a className="active" href="#">
+                          Home
+                        </a>
+                      </li>
+                      <li>
+                        <a target="_blank" href="/schedule">Schedule</a>
+                      </li>
+                      <li>
+                        <a target="_blank" href="#">Discord</a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+              <div className="col-xl-2 col-lg-2 d-none d-lg-block">
+                <div className="buy_ticket">
+                  <a href="#" className="boxed-btn-white">
+                    Register!
+                  </a>
+                </div>
+              </div>
+              <div className="col-12">
+                <div className="mobile_menu d-block d-lg-none" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  );
 }
