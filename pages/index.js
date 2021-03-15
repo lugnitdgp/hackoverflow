@@ -84,6 +84,13 @@ export default function IndexPage() {
                       >
                         Add to your Calendar
                       </a>
+                      <br/><br/>
+                      <a
+                        className="boxed-btn-white"
+                        id="register-2"
+                      >
+                        Register
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -405,10 +412,9 @@ export default function IndexPage() {
                   <h3>Specific sponsor track benefits and prizes!</h3>
                   <ul>
                     <li>
-                      <div className="p-4 flex items-center bg-white justify-around rounded shadow">
+                      <div className="p-4 flex flex-col md:flex-row items-center bg-white justify-around rounded shadow">
                         <img
-                          src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Ethereum-icon-purple.svg/1200px-Ethereum-icon-purple.svg.png"
-                          className="w-40 h-40"
+                          src="/Portis_Logo-Colored.png"
                         />
                         <span className="text-black">
                           Best hack using Ethereum gets Rs. 10,000 !
@@ -416,10 +422,10 @@ export default function IndexPage() {
                       </div>
                     </li>
                     <li>
-                      <div className="p-4 flex items-center bg-white justify-around rounded shadow">
+                      <div className="p-4 flex flex-col md:flex-row items-center bg-white justify-around rounded shadow">
                         <img
-                          src="http://searchvectorlogo.com/wp-content/uploads/2019/10/portis-io-logo-vector.png"
-                          className="w-64 h-40"
+                          src="/portis.png"
+                          className="w-45 h-20"
                         />
                         <span className="text-black">
                           Best Dapp built on Portis gets Rs. 15,000 !
@@ -427,10 +433,10 @@ export default function IndexPage() {
                       </div>
                     </li>
                     <li>
-                      <div className="p-4 flex items-center bg-white justify-around rounded shadow">
+                      <div className="p-4 flex flex-col md:flex-row items-center bg-white justify-around rounded shadow">
                         <img
-                          src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Tezos_logo.svg/1200px-Tezos_logo.svg.png"
-                          className="w-40 h-40"
+                          src="/tezos.png"
+                          className="w-45 h-20"
                         />
                         <span className="text-black">
                           Best Dapp built on Tezos gets Rs. 20,000 !

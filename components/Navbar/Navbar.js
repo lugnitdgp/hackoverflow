@@ -20,12 +20,12 @@ export default function Navbar() {
                 </div>
               </div>
               <div className="col-xl-8 col-lg-8">
-                <div className="main-menu  d-none d-lg-block">
+                <div className="main-menu d-none d-lg-block">
                   <nav>
                     <ul id="navigation">
                       <li>
                         <a className="active" href="#">
-                          home
+                          Home
                         </a>
                       </li>
                       <li>
