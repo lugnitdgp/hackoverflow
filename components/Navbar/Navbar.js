@@ -29,7 +29,7 @@ export default function Navbar() {
                         </a>
                       </li>
                       <li>
-                        <a target="_blank" href="Schedule.html">Schedule</a>
+                        <a target="_blank" href="/schedule">Schedule</a>
                       </li>
                       <li>
                         <a target="_blank" href="#">Discord</a>

@@ -40,7 +40,7 @@ export default function Footer() {
               <h3 className="footer_title">Links</h3>
               <ul>
                 <li>
-                  <a target="_blank" href="Schedule.html">
+                  <a target="_blank" href="/schedule">
                     Schedule
                   </a>
                 </li>

@@ -258,8 +258,7 @@ export default function IndexPage() {
                         height: "90px",
                         width: "90px",
                         borderRadius: "50%",
-                      }}
-                    />
+                      }}/>
                     <div className="speaker-name">
                       <div className="heading d-flex justify-content-between align-items-center">
                         <span>Sustainability</span>
