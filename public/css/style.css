@@ -5937,3 +5937,12 @@ h6 {
     font-size: 30px;
   }
 }
+
+.transparent--home {
+  background: none !important;
+}
+
+#navbar-drawer {
+  align-items: flex-end !important;
+  justify-content: end !important;
+}
