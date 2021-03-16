@@ -31,7 +31,7 @@ export default function Sponsors() {
                     </Link>
                 </div>
                 <div className="p-1">
-                    <Link href="https://matic.network/">
+                    <Link href="https://polygon.technology/">
                         <img src="/Portis_Logo-Colored.png" />
                     </Link>
                 </div>

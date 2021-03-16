@@ -435,7 +435,7 @@ export default function IndexPage() {
                   <ul>
                     <li>
                       <div className="p-4 flex flex-col md:flex-row items-center bg-white justify-around rounded shadow">
-                        <Link href="https://matic.network/">
+                        <Link href="https://polygon.technology/">
                           <img
                             src="/Portis_Logo-Colored.png"
                           />
