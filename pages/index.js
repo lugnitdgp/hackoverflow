@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Timer from "../components/Timer";
 import Sponsors from "../components/sponsors";
+import Link from "next/link";
 
 export default function IndexPage() {
   return (
@@ -434,33 +435,42 @@ export default function IndexPage() {
                   <ul>
                     <li>
                       <div className="p-4 flex flex-col md:flex-row items-center bg-white justify-around rounded shadow">
-                        <img
-                          src="/Portis_Logo-Colored.png"
-                        />
+                        <Link href="https://matic.network/">
+                          <img
+                            src="/Portis_Logo-Colored.png"
+                          />
+                        </Link>
                         <span className="text-black">
-                          Best hack using Ethereum gets Rs. 10,000 !
+                          ₹10,000 for the best hack built on Ethereum!<br />
+                          ₹15,000 for the best hack built on Ethereum + Polygon!<br />
+                          Eligibility to apply for internship/full-time roles and <br />seed funding of up to 5,000 USD for winners!
                         </span>
                       </div>
                     </li>
                     <li>
                       <div className="p-4 flex flex-col md:flex-row items-center bg-white justify-around rounded shadow">
-                        <img
-                          src="/portis.png"
-                          className="w-45 h-20"
-                        />
+                        <Link href="https://www.portis.io/">
+                          <img
+                            src="/portis.png"
+                            className="w-45 h-20"
+                          />
+                        </Link>
                         <span className="text-black">
-                          Best Dapp built on Portis gets Rs. 15,000 !
+                          Best Dapp built on Portis gets ₹15,000 !
                         </span>
                       </div>
                     </li>
                     <li>
                       <div className="p-4 flex flex-col md:flex-row items-center bg-white justify-around rounded shadow">
-                        <img
-                          src="/tezos.png"
-                          className="w-45 h-20"
-                        />
+                        <Link href="https://tezos.com/">
+                          <img
+                            src="/tezos.png"
+                            className="w-45 h-20"
+                          />
+                        </Link>
                         <span className="text-black">
-                          Best Dapp built on Tezos gets Rs. 20,000 !
+                          Best Dapp built on Tezos gets ₹20,000 !
+                          <br /> Continuity Grant opportunity for exceptional builders!
                         </span>
                       </div>
                     </li>
@@ -507,7 +517,7 @@ export default function IndexPage() {
             <div className="row">
               <div className="col-xl-12">
                 <div className="serction_title_large mb-95">
-                  <h3>Frequently Ask</h3>
+                  <h3>Frequently Asked</h3>
                 </div>
               </div>
             </div>

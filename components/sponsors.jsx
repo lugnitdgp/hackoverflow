@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from "next/link";
 
 export default function Sponsors() {
     return (
@@ -13,17 +14,26 @@ export default function Sponsors() {
                 </div>
             </div>
             <div className="w-full pt-2 md:pt-6 md:pb-4 flex md:flex-row flex-col items-center md:justify-around" style={{ marginTop: "30px", marginBottom: "20px", }}><div className="p-3">
-                <img src="/devfolio.png" /></div>
+                <Link href='https://devfolio.co/'>
+                <img src="/devfolio.png" />
+                </Link>
+                </div>
             </div>
             <div className="w-full pt-2 md:pt-6 md:pb-8 flex md:flex-row flex-col items-center md:justify-around" style={{ marginBottom: "80px", }}>
                 <div className="p-1">
-                    <img src="/tezos.png" />
+                    <Link href="https://tezos.com/">
+                        <img src="/tezos.png" />
+                    </Link>
                 </div>
                 <div className="p-1">
-                    <img src="/portis.png" />
+                    <Link href="https://www.portis.io/">
+                        <img src="/portis.png" />
+                    </Link>
                 </div>
                 <div className="p-1">
-                    <img src="/Portis_Logo-Colored.png" />
+                    <Link href="https://matic.network/">
+                        <img src="/Portis_Logo-Colored.png" />
+                    </Link>
                 </div>
             </div>
         </React.Fragment>

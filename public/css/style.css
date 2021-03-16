@@ -5903,14 +5903,14 @@ h6 {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 150, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog_part.scss */
   .text-black {
-    font-size: 30px;
+    font-size: 20px;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   /* line 150, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog_part.scss */
   .text-black {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
 
@@ -5933,7 +5933,7 @@ h6 {
     display: none;
   }
   .text-black {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
 
