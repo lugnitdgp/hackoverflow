@@ -48,6 +48,7 @@ export default function SchedulePage() {
                 <script src="js/jquery.validate.min.js"></script>
                 <script src="js/mail-script.js"></script>
                 <script src="js/main.js"></script>
+                <script src="https://apply.devfolio.co/v2/sdk.js" defer async></script>
             </Head>
             <div>
                 <div>
@@ -63,12 +64,12 @@ export default function SchedulePage() {
                                                 <a href="https://calendar.google.com/calendar/r/eventedit?text=Hackoverflow+4.0&dates=20210402/20210403" className="boxed-btn-white">
                                                     Add to your Calendar
                 </a><br /><br />
-                                                <a
+                                                {/* <a
                                                     className="boxed-btn-white"
                                                     id="register-2"
                                                 >
                                                     Register
-                      </a>
+                      </a> */}
                                             </div>
                                         </div>
                                     </div>

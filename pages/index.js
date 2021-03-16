@@ -47,7 +47,7 @@ export default function IndexPage() {
         <script src="/js/jquery.magnific-popup.min.js"></script>
         <script src="/js/jquery.countdown.js"></script>
         <script src="/js/plugins.js"></script>
-
+        <script src="https://apply.devfolio.co/v2/sdk.js" defer async></script>
         <script src="/js/contact.js"></script>
         <script src="/js/jquery.ajaxchimp.min.js"></script>
         <script src="/js/jquery.form.js"></script>
@@ -87,12 +87,13 @@ export default function IndexPage() {
                         Add to your Calendar
                       </a>
                       <br /><br />
-                      <a
+                      {/* <a
                         className="boxed-btn-white"
                         id="register-2"
                       >
                         Register
-                      </a>
+                      </a> */}
+                      <div className="apply-button" data-hackathon-slug="hackoverflow4" data-button-theme="dark" style={{ height: 44, width: 312 }} />
                     </div>
                   </div>
                 </div>
@@ -493,6 +494,9 @@ export default function IndexPage() {
               </li>
               <li>
                 <h1 style={{ fontSize: "25px" }}>in the Event!</h1>
+              </li>
+              <li>
+                <div className="apply-button" data-hackathon-slug="hackoverflow4" data-button-theme="dark" style={{ height: 44, width: 312 }} />
               </li>
             </ul>
           </div>

@@ -88,13 +88,13 @@ export default function Navbar() {
                   </nav>
                 </div>
               </div>
-              <div className="col-xl-2 col-lg-2 d-none d-lg-block">
+              {/* <div className="col-xl-2 col-lg-2 d-none d-lg-block">
                 <div className="buy_ticket">
                   <a href="#" className="boxed-btn-white">
                     Register!
                   </a>
                 </div>
-              </div>
+              </div> */}
               <div className="col-12">
                 <div className="mobile_menu d-block d-lg-none" />
               </div>
