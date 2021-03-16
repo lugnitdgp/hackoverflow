@@ -1,10 +1,20 @@
 import Head from "next/head";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import Timer from "../components/Timer";
+import {useEffect} from "react";
 import Sponsors from "../components/sponsors";
 
 export default function SchedulePage() {
+    useEffect(() => {
+        const script = document.createElement('script');
+        script.src = 'https://apply.devfolio.co/v2/sdk.js';
+        script.async = true;
+        script.defer = true;
+        document.body.appendChild(script);
+        return () => {
+            document.body.removeChild(script);
+        }
+    }, []);
     return (
         <>
             <Head>
@@ -48,7 +58,6 @@ export default function SchedulePage() {
                 <script src="js/jquery.validate.min.js"></script>
                 <script src="js/mail-script.js"></script>
                 <script src="js/main.js"></script>
-                <script src="https://apply.devfolio.co/v2/sdk.js" defer async></script>
             </Head>
             <div>
                 <div>

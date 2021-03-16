@@ -4,8 +4,19 @@ import Navbar from "../components/Navbar";
 import Timer from "../components/Timer";
 import Sponsors from "../components/sponsors";
 import Link from "next/link";
+import {useEffect} from "react";
 
 export default function IndexPage() {
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    }
+  }, []);
   return (
     <>
       <Head>
@@ -20,7 +31,7 @@ export default function IndexPage() {
           href="img/aarohan-logo.png"
         />
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossOrigin="anonymous" />
         <link rel="stylesheet" href="/css/owl.carousel.min.css" />
         <link rel="stylesheet" href="/css/magnific-popup.css" />
         <link rel="stylesheet" href="/css/font-awesome.min.css" />
@@ -48,7 +59,6 @@ export default function IndexPage() {
         <script src="/js/jquery.magnific-popup.min.js"></script>
         <script src="/js/jquery.countdown.js"></script>
         <script src="/js/plugins.js"></script>
-        <script src="https://apply.devfolio.co/v2/sdk.js" defer async></script>
         <script src="/js/contact.js"></script>
         <script src="/js/jquery.ajaxchimp.min.js"></script>
         <script src="/js/jquery.form.js"></script>
@@ -62,7 +72,7 @@ export default function IndexPage() {
           async
           defer
         ></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossOrigin="anonymous"></script>
         <script src="/js/jquery.slicknav.min.js"></script>
       </Head>
       <div>
