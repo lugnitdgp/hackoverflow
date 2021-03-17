@@ -278,7 +278,7 @@ export default function SchedulePage() {
                         <div className="container">
                             <div className="row">
                                 <div className="col-xl-12">
-                                    <div className="resister_text text-center">
+                                    <div className="resister_text text-center" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
                                         <h3>Register Now to Lodge<br />
               Your Presence</h3>
                                         <br /><br />
