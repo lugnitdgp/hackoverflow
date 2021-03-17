@@ -132,7 +132,7 @@ export default function SchedulePage() {
                                 <div className="row">
                                     <div className="col-xl-3 col-lg-3">
                                         <div className="date">
-                                            <h3 style={{ color: 'blue' }}>22 March, 2021</h3>
+                                            <h3 style={{ color: 'blue' }}>20 March, 2021</h3>
                                         </div>
                                     </div>
                                     <div className="col-xl-9 col-lg-9">
