@@ -9028,7 +9028,10 @@ button.bg-dark:hover {
 }
 
 .text-center {
-    text-align: center!important
+    text-align: center!important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 @media (min-width:576px) {
