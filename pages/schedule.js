@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import {useEffect} from "react";
+import { useEffect } from "react";
 import Sponsors from "../components/sponsors";
 
 export default function SchedulePage() {
@@ -73,6 +73,7 @@ export default function SchedulePage() {
                                                 <a href="https://calendar.google.com/calendar/r/eventedit?text=Hackoverflow+4.0&dates=20210402/20210403" className="boxed-btn-white">
                                                     Add to your Calendar
                 </a><br /><br />
+                                                <div className="apply-button" data-hackathon-slug="hackoverflow4" data-button-theme="dark" style={{ height: 44, width: 312 }} />
                                                 {/* <a
                                                     className="boxed-btn-white"
                                                     id="register-2"
@@ -280,7 +281,8 @@ export default function SchedulePage() {
                                     <div className="resister_text text-center">
                                         <h3>Register Now to Lodge<br />
               Your Presence</h3>
-                                        <a href="#" className="boxed-btn-white">Register!</a>
+                                        <br /><br />
+                                        <div className="apply-button" data-hackathon-slug="hackoverflow4" data-button-theme="dark" style={{ height: 44, width: 312 }} />
                                     </div>
                                 </div>
                             </div>

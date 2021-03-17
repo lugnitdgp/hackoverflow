@@ -516,6 +516,7 @@ export default function IndexPage() {
                 <h1 style={{ fontSize: "25px" }}>in the Event!</h1>
               </li>
               <li>
+                <br/><br/>
                 <div className="apply-button" data-hackathon-slug="hackoverflow4" data-button-theme="dark" style={{ height: 44, width: 312 }} />
               </li>
             </ul>
