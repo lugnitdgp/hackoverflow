@@ -444,7 +444,7 @@ export default function IndexPage() {
                   <h3>Specific sponsor track benefits and prizes!</h3>
                   <ul>
                     <li>
-                      <div className="p-4 flex flex-col md:flex-row items-center bg-white justify-around rounded shadow">
+                      <div className="p-4 flex flex-col md:flex-row items-center bg-white justify-around rounded shadow" style={{ marginBottom: "15px" }}>
                         <Link href="https://polygon.technology/">
                           <img
                             src="/Portis_Logo-Colored.png"
@@ -458,7 +458,7 @@ export default function IndexPage() {
                       </div>
                     </li>
                     <li>
-                      <div className="p-4 flex flex-col md:flex-row items-center bg-white justify-around rounded shadow">
+                      <div className="p-4 flex flex-col md:flex-row items-center bg-white justify-around rounded shadow" style={{ marginBottom: "15px" }}>
                         <Link href="https://www.portis.io/">
                           <img
                             src="/portis.png"
@@ -471,7 +471,7 @@ export default function IndexPage() {
                       </div>
                     </li>
                     <li>
-                      <div className="p-4 flex flex-col md:flex-row items-center bg-white justify-around rounded shadow">
+                      <div className="p-4 flex flex-col md:flex-row items-center bg-white justify-around rounded shadow" style={{ marginBottom: "15px" }}>
                         <Link href="https://tezos.com/">
                           <img
                             src="/tezos.png"
