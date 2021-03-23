@@ -241,10 +241,13 @@ export default function IndexPage () {
                   </div>
                   <div className='speaker_name text-center'>
                     <h3>Indranil Dutta</h3>
-                    <p style={{ color: 'blue' }}>Organiser of GDG Kolkata</p>
+                    <p style={{ color: 'blue' }}>
+                      Organiser of GDG Kolkata
+                      <br /> Senior Consultant at PwC India
+                    </p>
                   </div>
                 </div>
-                
+
                 <div className='single_speaker'>
                   <div className='speaker_thumb'>
                     <img src='/img/Dagar.JPG' alt />
@@ -263,7 +266,7 @@ export default function IndexPage () {
                 </div>
               </div>
               <div className='col-xl-5 offset-xl-2 col-md-6'>
-              <div className='single_speaker'>
+                <div className='single_speaker'>
                   <div className='speaker_thumb'>
                     <img src='/img/Gautham.png' alt />
                     <div className='hover_overlay'>
@@ -454,11 +457,11 @@ export default function IndexPage () {
               <div className='col-xl-12'>
                 <div className='resister_text text-center'>
                   <h3>Specific sponsor track benefits and prizes!</h3>
-                  <ul>
+                  <ul style={{ fontFamily : "Poppins" }}>
                     <li>
                       <div
                         className='p-4 flex flex-col md:flex-row items-center bg-white justify-around rounded shadow'
-                        style={{ marginBottom: '15px' }}
+                        style={{ marginBottom: '15px', }}
                       >
                         <Link href='https://polygon.technology/'>
                           <img src='/Portis_Logo-Colored.png' />
@@ -466,7 +469,8 @@ export default function IndexPage () {
                         <span className='text-black'>
                           ₹10,000 for the best hack built on Ethereum!
                           <br />
-                          ₹15,000 for the best hack built on Ethereum + Polygon!
+                          ₹15,000 for the best hack built on Ethereum +
+                          Polygon!
                           <br />
                           Eligibility to apply for internship/full-time roles
                           and <br />
@@ -502,7 +506,28 @@ export default function IndexPage () {
                         </span>
                       </div>
                     </li>
-                    <li></li>
+                    <li>
+                      <div
+                        className='p-4 flex flex-col md:flex-row items-center bg-white justify-around rounded shadow'
+                        style={{ marginBottom: '15px' }}
+                      >
+                        <Link href='https://geeksforgeeks.org/'>
+                          <img src='/gfg.png' className='w-45 h-20' />
+                        </Link>
+                        <span
+                          className='text-black'
+                        >
+                          Access to Premium course of worth INR 2,500 for all
+                          individuals of the winning Team <br /> Access to
+                          Premium course of worth INR 2,000 for all individuals
+                          of the 1st Runner-up Team <br /> Access to Premium
+                          course of worth INR 1,200 for all individuals of the
+                          2nd Runner-up Team
+                          <br />INR 300 worth vouchers to all the participants
+                          <br />
+                        </span>
+                      </div>
+                    </li>
                   </ul>
                 </div>
               </div>
