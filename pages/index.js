@@ -457,11 +457,11 @@ export default function IndexPage () {
               <div className='col-xl-12'>
                 <div className='resister_text text-center'>
                   <h3>Specific sponsor track benefits and prizes!</h3>
-                  <ul style={{ fontFamily : "Poppins" }}>
+                  <ul style={{ fontFamily: 'Poppins' }}>
                     <li>
                       <div
                         className='p-4 flex flex-col md:flex-row items-center bg-white justify-around rounded shadow'
-                        style={{ marginBottom: '15px', }}
+                        style={{ marginBottom: '15px' }}
                       >
                         <Link href='https://polygon.technology/'>
                           <img src='/Portis_Logo-Colored.png' />
@@ -469,8 +469,7 @@ export default function IndexPage () {
                         <span className='text-black'>
                           ₹10,000 for the best hack built on Ethereum!
                           <br />
-                          ₹15,000 for the best hack built on Ethereum +
-                          Polygon!
+                          ₹15,000 for the best hack built on Ethereum + Polygon!
                           <br />
                           Eligibility to apply for internship/full-time roles
                           and <br />
@@ -514,16 +513,31 @@ export default function IndexPage () {
                         <Link href='https://geeksforgeeks.org/'>
                           <img src='/gfg.png' className='w-45 h-20' />
                         </Link>
-                        <span
-                          className='text-black'
-                        >
+                        <span className='text-black'>
                           Access to Premium course of worth INR 2,500 for all
                           individuals of the winning Team <br /> Access to
                           Premium course of worth INR 2,000 for all individuals
                           of the 1st Runner-up Team <br /> Access to Premium
                           course of worth INR 1,200 for all individuals of the
                           2nd Runner-up Team
-                          <br />INR 300 worth vouchers to all the participants
+                          <br />
+                          INR 300 worth vouchers to all the participants
+                          <br />
+                        </span>
+                      </div>
+                    </li>
+                    <li>
+                      <div
+                        className='p-4 flex flex-col md:flex-row items-center bg-white justify-around rounded shadow'
+                        style={{ marginBottom: '15px' }}
+                      >
+                        <Link href='https://prepbytes.com/'>
+                          <img src='/pb.png' className='w-45 h-20' />
+                        </Link>
+                        <span className='text-black'>
+                          Goodies for top 3 winners 
+                          <br />
+                          INR 500 worth vouchers to all the participants
                           <br />
                         </span>
                       </div>
