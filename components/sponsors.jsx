@@ -27,6 +27,11 @@ export default function Sponsors () {
             <img src='/gfg.png' />
           </Link>
         </div>
+        <div className='p-3'>
+          <Link href='https://prepbytes.com/'>
+            <img src='/pb.png' style={{ width: "150px", height: "150px" }}/>
+          </Link>
+        </div>
       </div>
       <div
         className='w-full pt-2 md:pt-6 md:pb-8 flex md:flex-row flex-col items-center md:justify-around'

@@ -68,7 +68,7 @@ export default function Footer() {
               Aarohan, 2021 | Made with{" "}
               <i className="fa fa-heart-o" aria-hidden="true" /> by{" "}
               <a href="https://colorlib.com/" target="_blank">
-                Team Aavishkar 
+                GNU/Linux Users' Group
               </a>
             </p>
           </div>
